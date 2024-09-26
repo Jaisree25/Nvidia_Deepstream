@@ -1,0 +1,192 @@
+TRT-8603-EntropyCalibration2
+input_1:0: 3c008912
+conv1/convolution:0: 3ceaa260
+(Unnamed Layer* 1) [Constant]_output: 2fa76436
+(Unnamed Layer* 2) [Shuffle]_output: 2fa76436
+conv1/BiasAdd:0: 3ceaa260
+(Unnamed Layer* 4) [Constant]_output: 3d92ea99
+bn_conv1/batchnorm/mul_1:0: 3df762de
+(Unnamed Layer* 6) [Constant]_output: 3c8e37a5
+bn_conv1/batchnorm/add_1:0: 3de6934a
+activation_1/Relu:0: 3de7b0ac
+block_1a_conv_shortcut/BiasAdd:0: 3e0b2916
+(Unnamed Layer* 10) [Constant]_output: 3bfcdbd8
+block_1a_bn_shortcut/batchnorm/mul_1:0: 3dce0119
+(Unnamed Layer* 12) [Constant]_output: 3c9d1c74
+block_1a_bn_shortcut/batchnorm/add_1:0: 3dbf0073
+block_1a_conv_1/convolution:0: 3e7f60a7
+(Unnamed Layer* 15) [Constant]_output: 3c05448c
+(Unnamed Layer* 16) [Shuffle]_output: 3c05448c
+block_1a_conv_1/BiasAdd:0: 3e7e67f6
+(Unnamed Layer* 18) [Constant]_output: 3bc05521
+block_1a_bn_1/batchnorm/mul_1:0: 3dfb11df
+(Unnamed Layer* 20) [Constant]_output: 3cbe014f
+block_1a_bn_1/batchnorm/add_1:0: 3ddbc5fe
+block_1a_relu_1/Relu:0: 3d87eb0f
+block_1a_conv_2/convolution:0: 3e0ca0c3
+(Unnamed Layer* 24) [Constant]_output: 3c07f878
+(Unnamed Layer* 25) [Shuffle]_output: 3c07f878
+block_1a_conv_2/BiasAdd:0: 3e0ee29e
+(Unnamed Layer* 27) [Constant]_output: 3c0d0257
+block_1a_bn_2/batchnorm/mul_1:0: 3db82554
+(Unnamed Layer* 29) [Constant]_output: 3cad4e8c
+block_1a_bn_2/batchnorm/add_1:0: 3dd347bb
+add_1/add:0: 3dfed14a
+block_1a_relu/Relu:0: 3daab633
+block_1b_conv_1/convolution:0: 3e36275d
+(Unnamed Layer* 34) [Constant]_output: 3c055a36
+(Unnamed Layer* 35) [Shuffle]_output: 3c055a36
+block_1b_conv_1/BiasAdd:0: 3e32a87f
+(Unnamed Layer* 37) [Constant]_output: 3bd1ca1f
+block_1b_bn_1/batchnorm/mul_1:0: 3db25c46
+(Unnamed Layer* 39) [Constant]_output: 3d2637d1
+block_1b_bn_1/batchnorm/add_1:0: 3d98d937
+block_1b_relu_1/Relu:0: 3d6d99e6
+block_1b_conv_2/convolution:0: 3e210e16
+(Unnamed Layer* 43) [Constant]_output: 3c088ad5
+(Unnamed Layer* 44) [Shuffle]_output: 3c088ad5
+block_1b_conv_2/BiasAdd:0: 3e17b4a0
+(Unnamed Layer* 46) [Constant]_output: 3c1fccb9
+block_1b_bn_2/batchnorm/mul_1:0: 3dd66dc2
+(Unnamed Layer* 48) [Constant]_output: 3cc87e77
+block_1b_bn_2/batchnorm/add_1:0: 3d9deebd
+add_2/add:0: 3e02bdcb
+block_1b_relu/Relu:0: 3e0243dc
+block_2a_conv_shortcut/BiasAdd:0: 3e3bef06
+(Unnamed Layer* 53) [Constant]_output: 3bccc5ce
+block_2a_bn_shortcut/batchnorm/mul_1:0: 3d8ba280
+(Unnamed Layer* 55) [Constant]_output: 3cbb2226
+block_2a_bn_shortcut/batchnorm/add_1:0: 3d863087
+block_2a_conv_1/convolution:0: 3ea066e3
+(Unnamed Layer* 58) [Constant]_output: 3c3bf92e
+(Unnamed Layer* 59) [Shuffle]_output: 3c3bf92e
+block_2a_conv_1/BiasAdd:0: 3ec9774f
+(Unnamed Layer* 61) [Constant]_output: 3b8fbea6
+block_2a_bn_1/batchnorm/mul_1:0: 3dc6f2dc
+(Unnamed Layer* 63) [Constant]_output: 3d49621c
+block_2a_bn_1/batchnorm/add_1:0: 3d861bb8
+block_2a_relu_1/Relu:0: 3d741a2d
+block_2a_conv_2/convolution:0: 3e351e1a
+(Unnamed Layer* 67) [Constant]_output: 3c553744
+(Unnamed Layer* 68) [Shuffle]_output: 3c553744
+block_2a_conv_2/BiasAdd:0: 3e4f5f03
+(Unnamed Layer* 70) [Constant]_output: 3bee0403
+block_2a_bn_2/batchnorm/mul_1:0: 3ded3c2c
+(Unnamed Layer* 72) [Constant]_output: 3d0d4ec7
+block_2a_bn_2/batchnorm/add_1:0: 3d93e204
+add_3/add:0: 3ddf6e98
+block_2a_relu/Relu:0: 3dbc5c02
+block_2b_conv_1/convolution:0: 3e67bced
+(Unnamed Layer* 77) [Constant]_output: 3c42b0d8
+(Unnamed Layer* 78) [Shuffle]_output: 3c42b0d8
+block_2b_conv_1/BiasAdd:0: 3e6d3728
+(Unnamed Layer* 80) [Constant]_output: 3badaa86
+block_2b_bn_1/batchnorm/mul_1:0: 3da72c73
+(Unnamed Layer* 82) [Constant]_output: 3d0704d0
+block_2b_bn_1/batchnorm/add_1:0: 3d832838
+block_2b_relu_1/Relu:0: 3d731427
+block_2b_conv_2/convolution:0: 3e1a6fbd
+(Unnamed Layer* 86) [Constant]_output: 3c5df60e
+(Unnamed Layer* 87) [Shuffle]_output: 3c5df60e
+block_2b_conv_2/BiasAdd:0: 3e222151
+(Unnamed Layer* 89) [Constant]_output: 3c0dde82
+block_2b_bn_2/batchnorm/mul_1:0: 3dadfe31
+(Unnamed Layer* 91) [Constant]_output: 3d0fcc70
+block_2b_bn_2/batchnorm/add_1:0: 3d6e6889
+add_4/add:0: 3dec63b8
+block_2b_relu/Relu:0: 3defe3b7
+block_3a_conv_shortcut/BiasAdd:0: 3dfd769c
+(Unnamed Layer* 96) [Constant]_output: 3c05ad17
+block_3a_bn_shortcut/batchnorm/mul_1:0: 3d4bd3b2
+(Unnamed Layer* 98) [Constant]_output: 3c0d7982
+block_3a_bn_shortcut/batchnorm/add_1:0: 3d429b10
+block_3a_conv_1/convolution:0: 3e0fd6b5
+(Unnamed Layer* 101) [Constant]_output: 32e906ca
+(Unnamed Layer* 102) [Shuffle]_output: 32e906ca
+block_3a_conv_1/BiasAdd:0: 3e0fd6b5
+(Unnamed Layer* 104) [Constant]_output: 3b9acb61
+block_3a_bn_1/batchnorm/mul_1:0: 3d63bcf6
+(Unnamed Layer* 106) [Constant]_output: 3c4faac1
+block_3a_bn_1/batchnorm/add_1:0: 3d6695f4
+block_3a_relu_1/Relu:0: 3d35eb51
+block_3a_conv_2/convolution:0: 3d9bb4b0
+(Unnamed Layer* 110) [Constant]_output: 33f10f41
+(Unnamed Layer* 111) [Shuffle]_output: 33f10f41
+block_3a_conv_2/BiasAdd:0: 3d9bb4ae
+(Unnamed Layer* 113) [Constant]_output: 3c23b23f
+block_3a_bn_2/batchnorm/mul_1:0: 3d8c4f4c
+(Unnamed Layer* 115) [Constant]_output: 3c7dad3e
+block_3a_bn_2/batchnorm/add_1:0: 3d70fcc7
+add_5/add:0: 3d8bc228
+block_3a_relu/Relu:0: 3d69fb30
+block_3b_conv_1/convolution:0: 3da511b1
+(Unnamed Layer* 120) [Constant]_output: 338d1f42
+(Unnamed Layer* 121) [Shuffle]_output: 338d1f42
+block_3b_conv_1/BiasAdd:0: 3da511b2
+(Unnamed Layer* 123) [Constant]_output: 3bd09f31
+block_3b_bn_1/batchnorm/mul_1:0: 3d481be7
+(Unnamed Layer* 125) [Constant]_output: 3c893549
+block_3b_bn_1/batchnorm/add_1:0: 3d328b0e
+block_3b_relu_1/Relu:0: 3d171c33
+block_3b_conv_2/convolution:0: 3d3f2425
+(Unnamed Layer* 129) [Constant]_output: 3400d7db
+(Unnamed Layer* 130) [Shuffle]_output: 3400d7db
+block_3b_conv_2/BiasAdd:0: 3d3f242a
+(Unnamed Layer* 132) [Constant]_output: 3c419f03
+block_3b_bn_2/batchnorm/mul_1:0: 3d5a66c8
+(Unnamed Layer* 134) [Constant]_output: 3c7bcd25
+block_3b_bn_2/batchnorm/add_1:0: 3d3e74d2
+add_6/add:0: 3da5fa1e
+block_3b_relu/Relu:0: 3dad4c6c
+block_4a_conv_shortcut/BiasAdd:0: 3d91a238
+(Unnamed Layer* 139) [Constant]_output: 3c1494a9
+block_4a_bn_shortcut/batchnorm/mul_1:0: 3d4684d0
+(Unnamed Layer* 141) [Constant]_output: 3c3c1f2e
+block_4a_bn_shortcut/batchnorm/add_1:0: 3d31e60e
+block_4a_conv_1/convolution:0: 3dabdb79
+(Unnamed Layer* 144) [Constant]_output: 3394a0ef
+(Unnamed Layer* 145) [Shuffle]_output: 3394a0ef
+block_4a_conv_1/BiasAdd:0: 3dabdb7a
+(Unnamed Layer* 147) [Constant]_output: 3bf45308
+block_4a_bn_1/batchnorm/mul_1:0: 3d59960d
+(Unnamed Layer* 149) [Constant]_output: 3c9a20ee
+block_4a_bn_1/batchnorm/add_1:0: 3d2b65a5
+block_4a_relu_1/Relu:0: 3cfefc12
+block_4a_conv_2/convolution:0: 3d53683f
+(Unnamed Layer* 153) [Constant]_output: 33d77563
+(Unnamed Layer* 154) [Shuffle]_output: 33d77563
+block_4a_conv_2/BiasAdd:0: 3d53683b
+(Unnamed Layer* 156) [Constant]_output: 3c7bf264
+block_4a_bn_2/batchnorm/mul_1:0: 3d6976e2
+(Unnamed Layer* 158) [Constant]_output: 3caad1ae
+block_4a_bn_2/batchnorm/add_1:0: 3d37d597
+add_7/add:0: 3d5c0e92
+block_4a_relu/Relu:0: 3d378cd6
+block_4b_conv_1/convolution:0: 3d53edea
+(Unnamed Layer* 163) [Constant]_output: 38a63913
+(Unnamed Layer* 164) [Shuffle]_output: 38a63913
+block_4b_conv_1/BiasAdd:0: 3d53edf6
+(Unnamed Layer* 166) [Constant]_output: 3e41d512
+block_4b_bn_1/batchnorm/mul_1:0: 3d6fd308
+(Unnamed Layer* 168) [Constant]_output: 3c722666
+block_4b_bn_1/batchnorm/add_1:0: 3d96b364
+block_4b_relu_1/Relu:0: 3d4a6f25
+block_4b_conv_2/convolution:0: 3de3f462
+(Unnamed Layer* 172) [Constant]_output: 393dc44c
+(Unnamed Layer* 173) [Shuffle]_output: 393dc44c
+block_4b_conv_2/BiasAdd:0: 3de3f462
+(Unnamed Layer* 175) [Constant]_output: 3d2ab342
+block_4b_bn_2/batchnorm/mul_1:0: 3e0797bf
+(Unnamed Layer* 177) [Constant]_output: 3ce3feab
+block_4b_bn_2/batchnorm/add_1:0: 3e0230c9
+add_8/add:0: 3e0748ca
+block_4b_relu/Relu:0: 3e0613e9
+output_cov/convolution:0: 3e91bf46
+(Unnamed Layer* 182) [Constant]_output: 39c2c3ac
+(Unnamed Layer* 183) [Shuffle]_output: 39c2c3ac
+output_cov/BiasAdd:0: 3e924c9e
+output_cov/Sigmoid:0: 3c00e22a
+output_bbox/convolution:0: 3dae610a
+(Unnamed Layer* 187) [Constant]_output: 3a22e45a
+(Unnamed Layer* 188) [Shuffle]_output: 3a22e45a
+output_bbox/BiasAdd:0: 3da079b3

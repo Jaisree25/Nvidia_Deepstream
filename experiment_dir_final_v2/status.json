@@ -1,0 +1,5 @@
+{"date": "9/15/2024", "time": "1:41:54", "status": "STARTED", "verbosity": "INFO", "message": "Starting detectnet_v2 gen_trt_engine."}
+{"date": "9/15/2024", "time": "1:42:0", "status": "FAILURE", "verbosity": "INFO", "message": "[Errno 2] No such file or directory: '/workspace/tao-experiments/gloves_model/experiment_dir_final/resnet18_detector.onnx'"}
+{"date": "9/15/2024", "time": "1:44:24", "status": "STARTED", "verbosity": "INFO", "message": "Starting detectnet_v2 gen_trt_engine."}
+{"date": "9/15/2024", "time": "18:47:38", "status": "STARTED", "verbosity": "INFO", "message": "Starting detectnet_v2 gen_trt_engine."}
+{"date": "9/15/2024", "time": "18:49:4", "status": "RUNNING", "verbosity": "INFO", "message": "Gen_trt_engine finished successfully."}
